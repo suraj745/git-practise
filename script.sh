@@ -1,6 +1,6 @@
 set -euo pipefail
 
-
+echo "Branch check"
 
 
 if [[ $(systemctl is-active jenkins) == "inactive" ]];
